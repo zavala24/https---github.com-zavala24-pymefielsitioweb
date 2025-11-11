@@ -1,0 +1,32 @@
+/* Tailwind v4: importa todo (preflight + utilities + variants) */
+@import "tailwindcss";
+
+/* ===== Fondo azul estilo Premia ===== */
+.bg-premia {
+  background:
+    radial-gradient(900px 420px at 82% 15%, rgba(80,140,255,.35), transparent 60%),
+    radial-gradient(800px 380px at 14% 28%, rgba(28,100,230,.28), transparent 60%),
+    conic-gradient(from 210deg at 15% 80%, rgba(255,255,255,.06), transparent 25%),
+    linear-gradient(180deg, #11377c 0%, #0c3373 48%, #0a2c65 100%);
+}
+
+/* Tarjeta del hero (glass + gradientes internos) */
+.hero-card {
+  background:
+    radial-gradient(600px 260px at 22% 18%, rgba(255,255,255,.08), transparent 60%),
+    radial-gradient(700px 300px at 78% 42%, rgba(255,255,255,.06), transparent 60%),
+    rgba(255,255,255,.06);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255,255,255,.10);
+  box-shadow:
+    0 10px 30px rgba(8,18,40,.45),
+    inset 0 0 0 1px rgba(255,255,255,.04);
+}
+
+/* Botón pastilla */
+.btn-pill {
+  border-radius: 9999px;
+  padding: .75rem 1.25rem;
+  font-weight: 600;
+  transition: .2s;
+}
