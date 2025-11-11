@@ -54,20 +54,6 @@ export default function Pricing() {
                 {/* Actions */}
                 <div className="mt-6 flex flex-wrap gap-3">
                   <a
-                    href="#demo"
-                    className="inline-flex items-center gap-2 rounded-full bg-blue-600 hover:bg-blue-500 text-white px-5 py-3 font-semibold shadow-blue-600/20 shadow-lg transition"
-                  >
-                    Solicitar demo
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      className="w-5 h-5"
-                      fill="currentColor"
-                    >
-                      <path d="M13 5h7v7h-2V8.414l-9.293 9.293-1.414-1.414L16.586 7H13V5Z" />
-                    </svg>
-                  </a>
-                  <a
                     href="#"
                     className="inline-flex items-center gap-2 rounded-full border border-slate-300 hover:bg-slate-50 text-slate-800 px-5 py-3 font-semibold transition"
                   >
