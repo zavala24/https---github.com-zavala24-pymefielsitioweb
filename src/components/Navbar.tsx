@@ -141,12 +141,14 @@ export default function Navbar() {
           </ul>
 
           <div className="mt-3 border-t border-white/10 pt-3">
-            <button
-              onClick={() => go("demo")}
+            <a
+              href="https://pymefieladminapp.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-full inline-flex items-center justify-center rounded-full border border-white/30 px-4 py-2 text-white hover:bg-white/10 transition focus:outline-none focus:ring-2 focus:ring-white/30"
             >
-              Solo ADMIN
-            </button>
+              Iniciar Sesión
+            </a>
           </div>
         </div>
       </aside>
