@@ -66,7 +66,7 @@ export default function Navbar() {
 
         {/* Botón Solo ADMIN (desktop) */}
           <a
-            href="https://pymefieladminapp.netlify.app/login"
+            href="https://pymefieladminapp.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden md:inline-flex btn-pill border border-white/30 text-white hover:bg-white/10 transition focus:outline-none focus:ring-2 focus:ring-white/40"
