@@ -49,14 +49,6 @@ export default function Navbar() {
       aria-label="Barra de navegación"
     >
       <div className="mx-auto max-w-7xl px-6 py-4 flex items-center justify-between">
-        {/* Logo */}
-        <button
-          onClick={() => go("inicio")}
-          className="text-white text-xl font-bold tracking-tight focus:outline-none focus:ring-2 focus:ring-white/40 rounded"
-          aria-label="Ir a inicio"
-        >
-          PyMe Fiel
-        </button>
 
         {/* Links Desktop */}
         <ul className="hidden md:flex items-center gap-8 text-white/85">
@@ -73,12 +65,14 @@ export default function Navbar() {
         </ul>
 
         {/* Botón Solo ADMIN (desktop) */}
-        <button
-          onClick={() => go("demo")}
-          className="hidden md:inline-flex btn-pill border border-white/30 text-white hover:bg-white/10 transition focus:outline-none focus:ring-2 focus:ring-white/40"
-        >
-          Solo ADMIN
-        </button>
+          <a
+            href="https://pymefieladminapp.netlify.app/login"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hidden md:inline-flex btn-pill border border-white/30 text-white hover:bg-white/10 transition focus:outline-none focus:ring-2 focus:ring-white/40"
+          >
+            Iniciar Sesión
+          </a>
 
         {/* Botón hamburguesa (móvil) */}
         <button

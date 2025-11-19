@@ -17,7 +17,7 @@ export default function Hero() {
     };
   }, [open]);
 
-  // Cerrar con ESC
+  // Cerrar modal con ESC
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => e.key === "Escape" && setOpen(false);
     window.addEventListener("keydown", onKey);
@@ -36,6 +36,28 @@ export default function Hero() {
           <div className="grid items-center gap-10 md:grid-cols-12">
             {/* TEXTO */}
             <div className="md:col-span-6 lg:col-span-7">
+              {/* BADGE CON LOGO + TEXTO */}
+              <div className="inline-flex items-center gap-3 rounded-full bg-white/5 px-4 py-2 ring-1 ring-white/10 mb-6">
+                <div className="relative h-9 w-9 rounded-xl bg-white flex items-center justify-center">
+                  <Image
+                    src="/screenshots/LogoSinFondo.png"
+                    alt="Logo PyMe Fiel"
+                    width={32}
+                    height={32}
+                    className="object-contain"
+                    priority
+                  />
+                </div>
+                <div className="text-left">
+                  <p className="text-[11px] uppercase tracking-[0.18em] text-blue-100 font-semibold">
+                    Plataforma PyMe Fiel
+                  </p>
+                  <p className="text-xs text-blue-100/80">
+                    Programa de lealtad para negocios inteligentes
+                  </p>
+                </div>
+              </div>
+
               <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">
                 La Lealtad que Impulsa el
                 <br /> Crecimiento de tu Negocio
@@ -75,7 +97,7 @@ export default function Hero() {
                 >
                   <div className="relative w-full max-h-[440px] flex items-center justify-center">
                     <Image
-                      src="/screenshots/Login.png"
+                      src="/screenshots/LoginNew.png"
                       alt="Panel PyMe Fiel Admin"
                       width={1200}
                       height={800}
@@ -99,7 +121,7 @@ export default function Hero() {
           role="dialog"
         >
           <div
-            className="relative max-w-6xl w-[92%] md:w-[90%] animate-[zoomIn_.18s_ease-out] "
+            className="relative max-w-6xl w-[92%] md:w-[90%] animate-[zoomIn_.18s_ease-out]"
             onClick={(e) => e.stopPropagation()}
           >
             <Image
@@ -122,7 +144,7 @@ export default function Hero() {
         </div>
       )}
 
-      {/* Animación keyframes (Tailwind) */}
+      {/* Animación */}
       <style jsx>{`
         @keyframes zoomIn {
           0% {

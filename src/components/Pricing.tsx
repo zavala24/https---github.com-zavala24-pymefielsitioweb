@@ -54,7 +54,9 @@ export default function Pricing() {
                 {/* Actions */}
                 <div className="mt-6 flex flex-wrap gap-3">
                   <a
-                    href="#"
+                    href="https://pymefielstorage.blob.core.windows.net/downloads/pymefiel.apk?sp=r&st=2025-11-19T18:50:32Z&se=2026-11-20T03:05:32Z&spr=https&sv=2024-11-04&sr=b&sig=4%2FY5wo%2FfaJKBTG2XmzeYQl5Wq9uEnD7GUJSUaBiUMFY%3D"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 rounded-full border border-slate-300 hover:bg-slate-50 text-slate-800 px-5 py-3 font-semibold transition"
                   >
                     Descargar App Android

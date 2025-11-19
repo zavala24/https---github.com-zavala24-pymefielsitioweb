@@ -6,6 +6,9 @@ import Navbar from "@/components/Navbar";
 export const metadata: Metadata = {
   title: "PyMe Fiel",
   description: "Fideliza clientes con una experiencia digital moderna.",
+    icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
