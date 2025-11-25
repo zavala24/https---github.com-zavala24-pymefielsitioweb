@@ -125,7 +125,7 @@ export default function Hero() {
             onClick={(e) => e.stopPropagation()}
           >
             <Image
-              src="/screenshots/Login.png"
+              src="/screenshots/LoginNew.png"
               alt="Vista ampliada — PyMe Fiel Admin"
               width={1920}
               height={1080}
